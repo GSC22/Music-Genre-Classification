@@ -40,38 +40,38 @@ Audio Classification systems
 
 1. Audio Preprocessing
 
-Audio files are loaded and resampled
-
-Noise and silence handled
-
-Signals divided into short time frames
+    Audio files are loaded and resampled
+  
+    Noise and silence handled
+  
+    Signals divided into short time frames
 
 
 2. Feature Extraction
 
-Short Time Fourier Transform (STFT)
-
-Conversion to Mel scale
-
-Log transformation to obtain Log-Mel spectrogram
-
-Spectrogram visualization for analysis
+    Short Time Fourier Transform (STFT)
+  
+    Conversion to Mel scale
+  
+    Log transformation to obtain Log-Mel spectrogram
+  
+    Spectrogram visualization for analysis
 
 
 3. Model Training
 
-Spectrograms used as input to a deep learning model
-
-Model learns time-frequency patterns unique to each genre
-
-Training and validation performed on labeled dataset
+    Spectrograms used as input to a deep learning model
+  
+    Model learns time-frequency patterns unique to each genre
+  
+    Training and validation performed on labeled dataset
 
 
 4. Prediction
 
-New audio files converted to Log-Mel spectrogram
-
-Model predicts the corresponding music genre
+    New audio files converted to Log-Mel spectrogram
+  
+    Model predicts the corresponding music genre
 
 
 
